@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "name": "Vishwa Jaganathan",
+    "location": "Salem, Tamil Nadu, India",
+    "role": "AI Developer and Full Stack Developer",
+    "religion": "Hindu",
+    "relationship_status": "Single",
+    "career_goal": "To become an AI Developer or Full Stack Developer",
+    "languages": ["Tamil", "English"]
+  },
+
+  "education": {
+    "schooling": {
+      "10th": {
+        "year": 2020,
+        "marks": 296
+      },
+      "12th": {
+        "year": 2022,
+        "marks": 389
+      }
+    },
+    "college": {
+      "degree": "B.E. Mechatronics Engineering",
+      "college_name": "Paavai Engineering College",
+      "join_date": "2022-11-25",
+      "graduation_date": "2026-05-13",
+      "cgpa": 8.0
+    },
+    "additional_learning": {
+      "platform": "NxtWave CCBP Academy",
+      "join_date": "2022-09",
+      "program": "Master Program in Full Stack Development"
+    }
+  },
+
+  "skills": {
+    "frontend": [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "Python",
+      "FastAPI",
+      "Flask"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "Firebase",
+      "Supabase",
+      "SQL"
+    ],
+    "ai": [
+      "LLMs",
+      "RAG",
+      "Prompt Engineering",
+      "Multi-Agent Systems",
+      "Generative AI"
+    ]
+  },
+
+  "projects": [
+    {
+      "name": "DEVA AI",
+      "description": "Spiritual AI platform with 25+ deity agents powered by LLMs and RAG."
+    },
+    {
+      "name": "SecureChat",
+      "description": "AI-enhanced real-time chat application."
+    },
+    {
+      "name": "AstroXI",
+      "description": "AI-powered IPL fantasy team picker."
+    },
+    {
+      "name": "Mahabharata Chronicles",
+      "description": "Interactive AI quiz and learning platform."
+    }
+  ],
+
+  "internships": [
+    {
+      "company": "SkillInfytech IT Solutions",
+      "role": "AI & Full Stack Developer Intern",
+      "period": "Jan 2025 - Feb 2025"
+    },
+    {
+      "company": "Cognifyz Technologies",
+      "role": "AI & Full Stack Developer Intern",
+      "period": "Jan 2025"
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "National Level Science Exhibition",
+      "level": "National",
+      "prize": "Second Prize",
+      "project": "Awareness Line System for Fishermen",
+      "description": "Designed a border-awareness solution to help fishermen avoid crossing international sea boundaries."
+    },
+    {
+      "title": "EDII Hackathon Finalist",
+      "year": 2024,
+      "details": "Selected among approximately 60 finalists from more than 8500 submitted ideas.",
+      "award": "₹10,000 cash prize and certificate from the Honourable MSME Minister"
+    }
+  ],
+
+  "technical_challenges": [
+    {
+      "title": "Low Memory Android Camera Crash",
+      "summary": "Solved image upload crashes on low-memory Android devices by implementing streaming camera capture, smart image decoding, and device-adaptive optimizations."
+    }
+  ],
+
+  "non_technical_challenges": [
+    {
+      "title": "Transition from Mechatronics to Software Development",
+      "summary": "Despite not getting a CSE or IT seat due to low cutoff marks, pursued NxtWave Full Stack Development alongside college for four years and built strong software engineering skills."
+    }
+  ],
+
+  "lessons_learned": {
+    "technical": "Always find the root cause of a problem before attempting to fix it.",
+    "non_technical": "No matter how successful a person becomes, humility should never be lost."
+  },
+
+  "strengths": [
+    "Treat challenges as deadlines instead of stress",
+    "Strong problem-solving mindset",
+    "Ability to stay focused on goals",
+    "Continuous learner"
+  ],
+
+  "weaknesses": [
+    "Sometimes become so focused on goals that family time gets reduced",
+    "Actively working on improving work-life balance"
+  ],
+
+  "hobbies": {
+    "cricket": {
+      "favorite_format": "Test Cricket",
+      "reason": "It tests patience, discipline, and decision-making."
+    },
+    "reading": {
+      "favorite_subject": "Mahabharata",
+      "reason": "The teachings and wisdom help with peaceful decision-making and personal growth."
+    }
+  },
+
+  "habits": [
+    "Remain calm during stressful situations",
+    "Prefer silence over arguments",
+    "Believe silence is often the strongest response"
+  ],
+
+  "memorable_experiences": [
+    {
+      "title": "Bus Journey from Bengaluru",
+      "story": "A stranger paid for my dinner and told me to help someone else in the future when I got a job. This experience strengthened my belief in helping others."
+    }
+  ],
+
+  "favorites": {
+    "favorite_foods": [
+      {
+        "name": "Dosa",
+        "emoji": "🥞"
+      },
+      {
+        "name": "Chicken Biryani",
+        "emoji": "🍗🍛"
+      }
+    ],
+    "favorite_color": {
+      "name": "Blue",
+      "emoji": "🔵"
+    },
+    "food_preference": {
+      "type": "Pure Non-Vegetarian",
+      "emoji": "🍗😋",
+      "description": "I am a pure non-vegetarian and enjoy trying different non-veg dishes."
+    },
+    "favorite_cricketer": {
+      "name": "KL Rahul",
+      "emoji": "🏏",
+      "reason": "I admire his adaptability. He can adjust his game according to different match situations and formats. His shot selection feels natural and practical, which makes him my favorite cricketer."
+    },
+    "favorite_movies": [
+      {
+        "name": "Anbe Sivam",
+        "language": "Tamil",
+        "reason": "The movie touched my heart and highlighted the value of humanity."
+      },
+      {
+        "name": "Interstellar",
+        "language": "English",
+        "reason": "I enjoy how it explores black holes, time dilation, space travel, and the mysteries of the universe."
+      }
+    ],
+    "favorite_actor": {
+      "name": "Vijay",
+      "emoji": "🎬"
+    },
+    "favorite_god": {
+      "name": "Lord Vishnu",
+      "emoji": "🕉️"
+    },
+    "favorite_book": {
+      "name": "Mahabharata",
+      "emoji": "📖"
+    }
+  },
+
+  "career_preferences": {
+    "dream_company": "I do not have a specific dream company. I believe that if I join a company and contribute meaningfully, I can help make it a dream workplace for many employees.",
+    "target_roles": [
+      "AI Developer",
+      "AI Engineer",
+      "Full Stack Developer",
+      "Backend Developer"
+    ],
+    "expected_ctc_lpa": "6-8",
+    "work_mode": [
+      "Work From Office",
+      "Hybrid",
+      "Remote"
+    ]
+  },
+
+  "self_introduction": "Hi, I'm Vishwa Jaganathan from Salem, Tamil Nadu. I completed my B.E. in Mechatronics Engineering at Paavai Engineering College with a CGPA of 8.0. Alongside academics, I pursued Full Stack Development through NxtWave CCBP Academy. I have built multiple AI-powered and full-stack applications including DEVA AI, SecureChat, AstroXI, and Mahabharata Chronicles. My strength is treating challenges as deadlines rather than stress, which helps me stay focused and deliver results. I am currently seeking opportunities in AI Development and Full Stack Development."
+}
