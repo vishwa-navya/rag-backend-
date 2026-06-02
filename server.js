@@ -28,6 +28,84 @@ app.post("/chat", async (req, res) => {
       });
     }
 
+    const lowerMessage = message.toLowerCase();
+
+    // =========================
+    // CHALLENGE SELECTION
+    // =========================
+
+    if (
+      lowerMessage.includes("challenge") &&
+      !lowerMessage.includes("technical") &&
+      !lowerMessage.includes("non")
+    ) {
+      return res.json({
+        type: "choice",
+        message:
+          "I would love to share the challenges I have faced. Before that, could you clarify which type of challenge you would like to know about?",
+        options: [
+          "Technical Challenge",
+          "Non-Technical Challenge"
+        ]
+      });
+    }
+
+    // =========================
+    // LESSON SELECTION
+    // =========================
+
+    if (
+      lowerMessage.includes("lesson") &&
+      !lowerMessage.includes("technical") &&
+      !lowerMessage.includes("non")
+    ) {
+      return res.json({
+        type: "choice",
+        message:
+          "I would love to share the lessons I have learned. Before that, could you clarify which type of lesson you would like to know about?",
+        options: [
+          "Technical Lesson",
+          "Non-Technical Lesson"
+        ]
+      });
+    }
+
+    // =========================
+    // DIRECT CHALLENGE ANSWERS
+    // =========================
+
+    if (lowerMessage === "technical challenge") {
+      return res.json({
+        reply:
+          knowledgeBase.interactive_responses.challenges.technical
+      });
+    }
+
+    if (lowerMessage === "non technical challenge") {
+      return res.json({
+        reply:
+          knowledgeBase.interactive_responses.challenges.non_technical
+      });
+    }
+
+    // =========================
+    // DIRECT LESSON ANSWERS
+    // =========================
+
+    if (lowerMessage === "technical lesson") {
+      return res.json({
+        reply:
+          knowledgeBase.interactive_responses.lessons_learned.technical
+      });
+    }
+
+    if (lowerMessage === "non technical lesson") {
+      return res.json({
+        reply:
+          knowledgeBase.interactive_responses.lessons_learned.non_technical
+      });
+    }
+
     const context = JSON.stringify(knowledgeBase, null, 2);
 
     const systemPrompt = `
@@ -44,6 +122,10 @@ VERY IMPORTANT:
 - Never say "The user".
 - Never say "Vishwa is".
 - Always say "I am", "I completed", "I built", "I learned".
+- If asked about family, answer from family section.
+- If asked about hobbies, answer from hobbies section.
+- If asked about achievements, answer from achievements section.
+- If asked about favorite food, favorite actor, favorite cricketer, answer from favorites section.
 
 Examples:
 
@@ -103,14 +185,14 @@ ${context}
       data?.choices?.[0]?.message?.content ||
       "I couldn't find an answer right now.";
 
-    res.json({
+    return res.json({
       reply
     });
 
   } catch (error) {
     console.error(error);
 
-    res.status(500).json({
+    return res.status(500).json({
       reply: "I am facing a temporary issue. Please try again."
     });
   }
