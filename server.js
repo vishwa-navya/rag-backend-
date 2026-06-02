@@ -181,9 +181,14 @@ ${context}
 
     const data = await response.json();
 
+    console.log("=================================");
+    console.log("SAMBANOVA RAW RESPONSE");
+    console.log(JSON.stringify(data, null, 2));
+    console.log("=================================");
+
     const reply =
-      data?.choices?.[0]?.message?.content ||
-      "I couldn't find an answer right now.";
+    data?.choices?.[0]?.message?.content ||
+    JSON.stringify(data, null, 2);
 
     return res.json({
       reply
