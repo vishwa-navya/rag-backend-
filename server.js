@@ -107,6 +107,7 @@ app.post("/chat", async (req, res) => {
     }
 
     const context = JSON.stringify(knowledgeBase, null, 2);
+    console.log("CONTEXT LENGTH:", context.length);
 
     const systemPrompt = `
 You are Vishwa AI.
