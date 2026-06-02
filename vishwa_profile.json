@@ -128,9 +128,15 @@
     }
   ],
 
-  "lessons_learned": {
-    "technical": "Always find the root cause of a problem before attempting to fix it.",
-    "non_technical": "No matter how successful a person becomes, humility should never be lost."
+  "interactive_responses": {
+    "challenges": {
+      "technical": "I faced a critical issue in my SecureChat app where image uploads were crashing on low-memory Android devices (4GB RAM). The app would freeze or crash when users tried to capture or upload photos. After debugging, I identified the root cause as loading full-resolution images directly into memory. I solved this by implementing streaming camera capture, smart image decoding with BitmapFactory options to downsample images, and device-adaptive optimizations that detect available memory and adjust image quality accordingly. This completely eliminated the crash.",
+      "non_technical": "I faced a significant challenge during my college admission. Due to my lower cutoff marks, I was unable to get a CSE or IT seat. I joined Mechatronics and simultaneously pursued NxtWave's Full Stack Development program. For four years, I balanced both college studies and software development training, which helped me become a strong developer."
+    },
+    "lessons_learned": {
+      "technical": "I learned that finding the root cause of a problem is more important than applying random fixes. Once the root cause is identified, the solution becomes much clearer.",
+      "non_technical": "I learned that success should never lead to arrogance. No matter how successful I become, I should remain humble and grounded."
+    }
   },
 
   "strengths": [
